@@ -1,0 +1,195 @@
+/*Tipografia body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #b5c6b2;
+}
+/*Alineacion logo*/
+.logo{
+    text-align: center;
+    background-color: darkolivegreen;
+    margin: 0%;
+}
+/*Titulo*/
+h1{
+    margin: 0%;
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*Barra navegación*/
+nav{
+    list-style: none;
+    padding: 0%;
+    background-color: darkolivegreen;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    margin-top: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #b5c6b2;
+    padding: 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background: #8FBD85;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+/*Imagenes Index*/
+.imagen-index{
+    padding: 0%;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+.Deptos{
+    width: 45%;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.pie{
+    text-align: center;
+    color: #b5c6b2;
+}
+/*Pie de Pagina*/
+footer{
+    background-color: darkolivegreen;
+    color: #b5c6b2;
+    font-size: smaller;
+}
+.Logos{
+    width: 100px;
+}
+.whatsapp{
+    width: 80px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/*GRID INDEX*/
+.grid-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+@media (max-width: 992px){
+    .grid-index{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+.grid-item{
+    
+}
+
+/*Galeria*/
+/*GRID GALERIA*/
+.grilla_item {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 5px;
+    padding: 10px;
+    grid-auto-flow: dense;
+}
+@media (min-width: 600px){
+.wide{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.tall{
+    grid-row: span 2;
+}
+}
+@media (min-width: 600px){
+ .ancho{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.alto{
+    grid-row: span 2;
+}
+}
+
+
+/*Tarifas y Servicios*/
+.h3tys{
+    text-align: center;
+}
+.columna{
+    flex: content;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+
+
+/*Nosotros*/
+.nos{
+    justify-content: space-around;
+    display:flex;
+}
+.in{
+    width: 700px;
+}
+.grid-nos{
+    display: grid;
+    gap: 5px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+
+}
+@media (min-width: 600px){
+    .grid-it-nos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.grid-it-nos{
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Asociate*/
+.form{
+    text-align: center;
+}
+.h3a{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
