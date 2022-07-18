@@ -94,7 +94,8 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-@media (max-width: 992px){
+@media (max-width: 992px)
+{
     .grid-index{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -102,6 +103,12 @@ footer{
 }
 .grid-item{
     
+}
+
+/*FOOTER*/
+.foot{
+    text-align: center;
+    display: flex;
 }
 
 /*Galeria*/
@@ -148,13 +155,12 @@ footer{
     text-align: center;
 }
 .columna{
-    flex: content;
-}
-.row{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     text-align: center;
+    text-decoration: none;
 }
-
 
 /*Nosotros*/
 .nos{
