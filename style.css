@@ -51,11 +51,12 @@ nav ul li{
 .imagen-index{
     padding: 0%;
     width: 100%;
-    display:flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    align-items: center; 
 }
 .Deptos{
-    width: 45%;
+    width: 700px;
+    height: auto;
     background-color: darkolivegreen;
     border-radius: 8px;
 }
@@ -102,13 +103,13 @@ footer{
     }
 }
 .grid-item{
-    
 }
 
 /*FOOTER*/
 .foot{
-    text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 /*Galeria*/
@@ -153,44 +154,51 @@ footer{
 /*Tarifas y Servicios*/
 .h3tys{
     text-align: center;
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 350px;
 }
 .columna{
+    margin-top: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     text-align: center;
-    text-decoration: none;
+    list-style: none;
 }
 
 /*Nosotros*/
 .nos{
-    justify-content: space-around;
-    display:flex;
+    padding: 0%;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center; 
 }
 .in{
     width: 700px;
+    height: auto;
+    background-color: darkolivegreen;
+    border-radius: 8px;
+}
+.ad{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 .grid-nos{
     display: grid;
-    gap: 5px;
-    padding: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 1fr;
-
+    grid-template-rows: 1fr;
 }
-@media (min-width: 600px){
+@media (max-width: 992px)
+{
     .grid-it-nos{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
 
-.grid-it-nos{
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /*Asociate*/
 .form{
