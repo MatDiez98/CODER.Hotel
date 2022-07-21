@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+header {
+  background-color: tomato; }
+
+.contenidoPrincipal {
+  background-color: white; }
+
+.boton {
+  margin: 0 auto; }
