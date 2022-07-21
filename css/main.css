@@ -6,10 +6,10 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 header {
-  background-color: "$color-secundario"; }
+  background-color: tomato; }
 
 .contenidoPrincipal {
   background-color: white; }
 
 .boton {
-  margin: "$margin-auto"; }
+  margin: 0 auto; }
